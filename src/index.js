@@ -7,7 +7,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'ejs');
 //middlewares
-	
+	//Proximamente
 //routes
 app.use(require('./routes/index'));
 //static files
